@@ -45,6 +45,7 @@ class ViewController: UIViewController {
         questionLabel.text = questionF
     }
     @IBAction func rewindToStart(_ sender: UIButton) {
+        questionLabel.text = "Give this iPhone to the other person :)"
     }
 }
 
